@@ -23,6 +23,7 @@
       <strong>Info!</strong> Gunakan internet dan direkomendasikan menggunakan browser Microsoft Egde, Firefox, atau Chrome saat membuka halaman ini.
     </div>
   </div>
+ 
 </div>
 
 <nav class="navbar navbar-expand-sm bg-dark navbar-dark sticky-top">
@@ -59,7 +60,7 @@
     <div class="col-sm-4">
       <h2>Tentang saya</h2>
       <br>
-      <div><img src="images/fotowahib.jpg" class="rounded-circle img-fluid" alt="Cinque Terre" width="200" height="200"></div>
+      <div><img src="images/fotowahib.jpg" class="rounded-circle img-fluid" alt="Wahib Muhibi Nur" width="200" height="200"></div>
       <br>
       <p>Nama saya Wahib Muhibi Nur. Saya merupakan mahasiswa Sistem Informasi ITS angkatan 2019. Saya berasal dari Trenggalek, Jawa Timur.</p>
       <h3>Daftar Artikel</h3>
@@ -147,11 +148,14 @@
 <div class="jumbotron text-center" style="margin-bottom:0">
   <p>©2020 Wahib Muhibi Nur - This project made with Bootstrap 4</p>
 </div>
+
 <script>
   $(document).ready(function(){
-    $('.toast').toast('show');
+    $(".close").click(function(){
+      $("#myAlert").alert("close");
+    });
   });
   </script>
+   
 </body>
-
 </html>
